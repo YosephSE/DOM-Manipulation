@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Quote Generator</h1>
-        <div class="quote-card">
-            <p id="quote">"The only limit to our realization of tomorrow is our doubts of today."</p>
-            <p id="author">- Franklin D. Roosevelt</p>
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">Quote Generator</h1>
+        <div class="card mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+                <p id="quote" class="card-text font-italic">"The only limit to our realization of tomorrow is our doubts of today."</p>
+                <p id="author" class="card-text text-right">- Franklin D. Roosevelt</p>
+            </div>
         </div>
-        <button>New Quote</button>
+        <button class="btn btn-primary mt-3">New Quote</button>
     </div>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
